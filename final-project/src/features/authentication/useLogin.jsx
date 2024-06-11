@@ -11,7 +11,7 @@ export const useLogin = () => {
     onSuccess: (data) => {
       console.log('useLogin user', data);
       queryClient.setQueryData(['user_xx'], data.user);
-      navigate('/auth/dashboard', { replace: true });
+      navigate('/auth/my_movie_llist', { replace: true });
     },
     onError: (err) => {
       console.log('Error', err);

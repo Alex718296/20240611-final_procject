@@ -4,9 +4,11 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { Toaster } from 'react-hot-toast';
 
 import AppLayout from './ui/AppLayout';
+import LoginAppLayout from './ui/LoginAppLayout';
 import LandingStatic from './pages/open/pages/LandingStatic_xx';
 import Landing from './pages/open/pages/Landing_xx';
 import GlobalStyles from './styles/GlobalStyles';
+import ProtectedRoute from "./ui/ProtectedRoute";
 
 
 import {
@@ -14,7 +16,7 @@ import {
   Latest,
   StaffPicks,
   ComingSoon,
-  Dashboard_xx,
+  MyMovieLlist,
   Login_xx,
   PageNotFound_xx,
   Settings_xx,
@@ -33,11 +35,11 @@ const router = createBrowserRouter([
   
   {
     path: '/auth',
-    element: <AppLayout />,
+    element: (<ProtectedRoute><LoginAppLayout /></ProtectedRoute>),
     children: [
       {
-        path: 'dashboard',
-        element: <Dashboard_xx />,
+        path: 'my_movie_llist',
+        element: <MyMovieLlist />,
       },
     ],
   },

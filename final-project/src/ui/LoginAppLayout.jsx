@@ -52,11 +52,12 @@ function AppLayout() {
         <menu className="menu">
           <p className="menu-name">Movie trailers</p>
           <ul>
-            <li className="active">
-              <a href="#">Action / Adventure</a>
+          <li className="active"><a href="/auth/my_movie_llist">My Movie List</a></li>
+            <li >
+              <a href="/popular">Action / Adventure</a>
               <ul>
                 <li><a href="/Latest">Latest</a></li>
-                <li className="active"><a href="/popular">Popular</a></li>
+                <li><a href="/popular">Popular</a></li>
                 <li><a href="/ComingSoon">Coming soon</a></li>
                 <li><a href="/StaffPicks">Staff picks</a></li>
               </ul>
@@ -64,7 +65,7 @@ function AppLayout() {
             <li><a href="#">Animation</a></li>
             <li><a href="#">Comedy</a></li>
             <li><a href="#">Documentaries</a></li>
-            <Header/>
+            
               {/* <li><a href="#">Drama</a></li>
               <li><a href="#">Horror</a></li>
               <li><a href="#">Sci-Fi  / Fantasy</a></li>
@@ -91,11 +92,8 @@ function AppLayout() {
   
           <div className="profile-box">
           <div onClick={handleClick}>
-      {isClicked ? <Header /> : (
-        
-           <Link  to='/login'><div className="circle"><img width='48px' height='36px' src='./login.png' /></div></Link>
-        
-      )}
+          <div className="circle"><Header/></div>
+          
     </div>
            
             
