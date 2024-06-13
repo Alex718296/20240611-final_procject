@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import { getMovie } from '../../../../services/ApiOrganization';
 
 export const useHomeOpen = () => {
-  let {
+  const {
     data: movie_name,
     error,
     isLoading,
