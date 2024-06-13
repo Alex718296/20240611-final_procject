@@ -55,7 +55,7 @@ const router = createBrowserRouter([
       index : true,
       element: <Popular/>    
     },
-    {path: '/popular',
+    {path: '/Popular',
       element:<Popular/> 
     },
     {path: '/Latest',
