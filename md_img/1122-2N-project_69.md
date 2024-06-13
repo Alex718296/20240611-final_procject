@@ -33,6 +33,10 @@
 ![](vercel-ComingSoon.png)
 ![](vercel-StaffPicks.png)
 
+### 4.AllDebugLog
+
+![](fianl_log0614.png)
+
 # -------------------------------------------------------------
 
 ## 評分說明
