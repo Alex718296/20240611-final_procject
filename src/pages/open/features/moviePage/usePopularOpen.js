@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { getPopular } from '../../../../services/apiPopulars';
+import { getPopular } from '../../../../services/ApiOrganization';
 // import Popular from '../../../Popular';
 
 export const usePopularOpen = () => {

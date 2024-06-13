@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { getStaffPicks } from '../../../../services/apiStaffPicks';
+import { getStaffPicks } from '../../../../services/ApiOrganization';
 // import Popular from '../../../Popular';
 
 export const useStaffPicksOpen = () => {

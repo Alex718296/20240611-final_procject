@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { getLatest } from '../../../../services/apiLatest';
+import { getLatest } from '../../../../services/ApiOrganization';
 // import Popular from '../../../Popular';
 
 export const useLatestOpen = () => {

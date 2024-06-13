@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { getMovie } from '../../../../services/apiMovieList';
+import { getMovie } from '../../../../services/ApiOrganization';
 
 export const useHomeOpen = () => {
   let {

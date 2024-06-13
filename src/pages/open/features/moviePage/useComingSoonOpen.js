@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { getComingSoon } from '../../../../services/apiComingSoon';
+import { getComingSoon } from '../../../../services/ApiOrganization';
 // import Popular from '../../../Popular';
 
 export const useComingSoonOpen = () => {
