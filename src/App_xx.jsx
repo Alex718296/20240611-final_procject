@@ -54,19 +54,23 @@ const router = createBrowserRouter([
       {
       index : true,
       element: <Popular/>    
-    },
-    {path: '/Popular',
+      },
+      {
+      path: '/Popular',
       element:<Popular/> 
-    },
-    {path: '/Latest',
-    element:<Latest/>
-    },
-    {path: '/StaffPicks',
-    element:<StaffPicks/>
-    },
-    {path: '/ComingSoon',
-    element:<ComingSoon/>
-    },
+      },
+      {
+      path: '/Latest',
+      element:<Latest/>
+      },
+      {
+      path: '/StaffPicks',
+      element:<StaffPicks/>
+      },
+      {
+      path: '/ComingSoon',
+      element:<ComingSoon/>
+    }
     ]
   },
 ]);
