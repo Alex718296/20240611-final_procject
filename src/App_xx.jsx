@@ -35,7 +35,7 @@ const router = createBrowserRouter([
   
   {
     path: '/auth',
-    element: (<ProtectedRoute><LoginAppLayout /></ProtectedRoute>),
+    element: (<><LoginAppLayout /></>),
     children: [
       {
         path: 'my_movie_llist',
