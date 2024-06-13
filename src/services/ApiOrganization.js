@@ -83,11 +83,11 @@ async function loadMovies() {
     console.log('Popular:', popular);
     console.log('Staff Picks:', staffPicks);
 
-    // You can now use these data to update the DOM or state in your application
+    // 使用上述資料來更新頁面狀態
   } catch (error) {
     console.error('Error loading movies:', error);
   }
 }
 
-// Call the loadMovies function to load all movie data
+// 呼叫loadMovies來載入所有資料
 loadMovies();

@@ -2,6 +2,39 @@
 
 [Final Project -- Vercel URL](https://20240611-final-procject.vercel.app/)
 
+# 教授 20240612 指導須修正事項(已完成項目)
+
+### 1.帳號登入 LOG 紀錄(已將帳號密碼顯示於頁面中)
+
+###### 記錄截圖
+
+![](debug-Account_login_record.png)
+
+###### email & password 紀錄
+
+![](email&password.png)
+
+### 2.API_arrange(Add API organization, Delete 6 APIs)
+
+###### 將 apiPopular、apiLatest、apiComingSoon、apiStaffPicks、apiMyMovielist、movieList 整合成 API organization 單一 server
+
+![](API_Organization.png)
+
+### 3.Vercel page can't open right
+
+###### 新增 vercel.json，將由 JavaScript 管理 router。(定義 router 邏輯)
+
+![](Add_Vercle-json.png)
+
+###### Vercel 實際頁面執行
+
+![](vercel-Latest.png)
+![](vercel-Popular.png)
+![](vercel-ComingSoon.png)
+![](vercel-StaffPicks.png)
+
+# -------------------------------------------------------------
+
 ## 評分說明
 
 1. 基本分：(30%~70%)
@@ -130,15 +163,25 @@ https://supabase.com/docs/reference/javascript/upsert
 
 ## 前端程式設計說明
 
-### => 功能 1 ，畫面設計，完成度說明
+### => 功能 1 及畫面設計，完成度說明
+
+##### 如前圖所示
 
 ### => 功能 2 及畫面設計，完成度說明
 
+##### 如前圖所示
+
 ### => 功能 3 及畫面設計，完成度說明
+
+##### 如前圖所示
 
 ### => 功能 4 及畫面設計，完成度說明
 
+##### 如前圖所示
+
 ### => 功能 5 及畫面設計，完成度說明
+
+##### 如前圖所示
 
 ---
 
@@ -186,4 +229,6 @@ https://supabase.com/docs/reference/javascript/upsert
 
 ### => 5.實現成果：
 
-###### 當成功創建一個令人讚嘆的網頁並將其發佈時，您將感到極大的成就感和喜悅。作品將能夠被訪問和欣賞，這是一種令人滿足的感覺。
+###### 當成功創建一個令人讚嘆的網頁並將其發佈時，感到極大的成就感和喜悅。作品將能夠被訪問和欣賞，這是一種令人滿足的感覺。
+
+# -------------------------------------------------------------
